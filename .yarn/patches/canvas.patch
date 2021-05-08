@@ -1,0 +1,13 @@
+diff --git a/types/index.d.ts b/types/index.d.ts
+index f4128045fb64086e0a0848c836fae8a18796670c..5b1f62a16c1e4edb5968b256d8eedc48ad8ce6bb 100644
+--- a/types/index.d.ts
++++ b/types/index.d.ts
+@@ -212,6 +212,8 @@ declare class NodeCanvasRenderingContext2D extends CanvasRenderingContext2D {
+         * the canvas's initial size is used.
+         */
+        addPage(width?: number, height?: number): void
++
++       myCoolFn(): void;
+ }
+ export { NodeCanvasRenderingContext2D as CanvasRenderingContext2D }
+
